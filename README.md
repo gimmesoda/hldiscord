@@ -1,21 +1,21 @@
 # hldiscord
 
-Haxe/HashLink bindings for [discord-presence](https://github.com/EclipseMenu/discord-presence) — a C++ Discord Rich Presence library.
+Haxe/HashLink bindings for [discord-presence](https://github.com/EclipseMenu/discord-presence) - a C++ Discord Rich Presence library.
 
 ## Features
 
 - Rich presence (state, details, large/small image keys, timestamps)
 - Buttons (up to 2)
 - Parties
-- Activity types — `Game`, `Streaming`, `Listening`, `Watching`, `Custom`, `Competing`
-- Status display types — `Name`, `State`, `Details`
+- Activity types (`Game`, `Streaming`, `Listening`, `Watching`, `Custom`, `Competing`)
+- Status display types (`Name`, `State`, `Details`)
 
 ## Requirements
 
 - [CMake](https://cmake.org/) + [Ninja](https://ninja-build.org/)
 - Haxe + HashLink
-- [hl-idl](https://github.com/onehundredfeet/hl-idl.git) — `haxelib git hl-idl https://github.com/onehundredfeet/hl-idl.git`
-- [hvector](https://github.com/onehundredfeet/hvector.git) — `haxelib git hvector https://github.com/onehundredfeet/hvector.git`
+- [hl-idl](https://github.com/onehundredfeet/hl-idl.git) - `haxelib git hl-idl https://github.com/onehundredfeet/hl-idl.git`
+- [hvector](https://github.com/onehundredfeet/hvector.git) - `haxelib git hvector https://github.com/onehundredfeet/hvector.git`
 
 ## Installation
 
