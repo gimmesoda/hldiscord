@@ -44,6 +44,14 @@ jobs:
 
           "HASHLINK=$($hashlinkDir.FullName)" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
+      - name: Set up Haxe
+        uses: krdlab/setup-haxe@v2
+        with:
+          haxe-version: 4.3.7
+
+      - name: Update Haxelib
+        run: haxelib --global update haxelib
+
       - name: Make HDLL
         shell: cmd
         run: make-hdll
